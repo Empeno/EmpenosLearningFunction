@@ -1,6 +1,6 @@
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-Good-brightgreen)](https://github.com/Empeno/EmpenosLearningFunction)
-[![Repo Status](https://img.shields.io/github/workflow/status/Empeno/EmpenosLearningFunction/main)](https://github.com/Empeno/EmpenosLearningFunction)
-
+[![Repo Status](https://github.com/empeno/empenoslearningfunction/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 
 ## Table of Contents
