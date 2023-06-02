@@ -1,6 +1,7 @@
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-Good-brightgreen)](https://github.com/Empeno/EmpenosLearningFunction)
 ![Repo Status](https://github.com/empeno/empenoslearningfunction/actions/workflows/main.yml/badge.svg)
-
+[![Known Vulnerabilities](YOUR_BADGE_URL)](https://your-repo-url)
+[![Known Vulnerabilities](https://snyk.io/test/github/{username}/{repo}/badge.svg)](https://snyk.io/test/github/empeno/empenoslearningfunction)
 
 ## Table of Contents
 
