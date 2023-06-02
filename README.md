@@ -1,3 +1,7 @@
+[![Code Quality](https://img.shields.io/badge/Code%20Quality-Good-brightgreen)](https://github.com/Empeno/EmpenosLearningFunction)
+
+
+
 ## Table of Contents
 
 - [Deployment slots](#deployment-slots)
