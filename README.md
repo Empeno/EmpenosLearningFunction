@@ -1,5 +1,5 @@
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-Good-brightgreen)](https://github.com/Empeno/EmpenosLearningFunction)
-[![Repo Status](https://img.shields.io/github/workflow/status/Empeno/EmpenosLearningFunction/main)](https://your-repo-url)
+[![Repo Status](https://img.shields.io/github/workflow/status/Empeno/EmpenosLearningFunction/main)](https://github.com/Empeno/EmpenosLearningFunction)
 
 
 
