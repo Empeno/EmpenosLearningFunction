@@ -22,7 +22,7 @@
 
 
 ## Deployment slots
-### What is deployemnt slots in Azure?
+### What is deployemnt slots in Azure? <a name="what-is-azure-functions"></a>
 Deployment slots are live apps with their own hostnames. App content and configurations elements can be swapped between two deployment slots, including the production slot.
 
 ### What is an Azure Function deployment slot?
