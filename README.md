@@ -1,28 +1,24 @@
-* [Azure Functions](#azure-functions)
-  * [What is Azure Functions?](#what-is-azure-functions)
-  * [What are the benefits of Azure Functions?](#what-are-the-benefits-of-azure-functions)
-  * [What are the triggers and bindings in Azure Functions?](#what-are-the-triggers-and-bindings-in-azure-functions)
-  * [What are the triggers in Azure Functions?](#what-are-the-triggers-in-azure-functions)
-  * [What are the bindings in Azure Functions?](#what-are-the-bindings-in-azure-functions)
-  * [What are the types of bindings in Azure Functions?](#what-are-the-types-of-bindings-in-azure-functions)
-  * [What are the input bindings in Azure Functions?](#what-are-the-input-bindings-in-azure-functions)
-  * [What are the output bindings in Azure Functions?](#what-are-the-output-bindings-in-azure-functions)
-  * [What are the triggers and bindings in Azure Functions?](#what-are-the-triggers-and-bindings-in-azure-functions)
-  * [What are the triggers in Azure Functions?](#what-are-the-triggers-in-azure-functions)
-  * [What are the bindings in Azure Functions?](#what-are-the-bindings-in-azure-functions)
-  * [What are the types of bindings in Azure Functions?](#what-are-the-types-of-bindings-in-azure-functions)
-  * [What are the input bindings in Azure Functions?](#what-are-the-input-bindings-in-azure-functions)
-  * [What are the output bindings in Azure Functions?](#what-are-the-output-bindings-in-azure-functions)
-  * [What are the triggers and bindings in Azure Functions?](#what-are-the-triggers-and-bindings-in-azure-functions)
-  * [What are the triggers in Azure Functions?](#what-are-the-triggers-in-azure-functions)
-  * [What are the bindings in Azure Functions?](#what-are-the-bindings-in-azure-functions)
-  * [What are the types of bindings in Azure Functions?](#what-are-the-types-of-bindings-in-azure-functions)
-  * [What are the input bindings in Azure Functions?](#what-are-the-input-bindings-in-azure-functions)
-  * [What
+## Table of Contents
+
+- [Deployment slots](#deployment-slots)
+   - [What is deployemnt slots in Azure?](#what-is-azure-functions)
+   - [What is an Azure Function deployment slot?](#what-is-an-azure-function-deployment-slot)
+   - [How are functions affected when swapping deployment slots?](#how-are-functions-affected-when-swapping-deployment-slots)
+   - [How to create a deployment slot?](#how-to-create-a-deployment-slot)
+   - [How to swap deployment slots?](#how-to-swap-deployment-slots)
+   - [How to delete a deployment slot?](#how-to-delete-a-deployment-slot)
+   - [How to configure deployment slots?](#how-to-configure-deployment-slots)
+   - [How to monitor deployment slots?](#how-to-monitor-deployment-slots)
+   - [How to view deployment slot settings?](#how-to-view-deployment-slot-settings)
+   - [How to view deployment slot logs?](#how-to-view-deployment-slot-logs)
+   - [How to view deployment slot metrics?](#how-to-view-deployment-slot-metrics)
+   - [How to view deployment slot usage?](#how-to-view-deployment-slot-usage)
+   - [How to deploy to a deployment slot?](#how-to-deploy-to-a-deployment-slot)
+
 
 
 ## Deployment slots
-### What is deployemnt slots in Azure? <a name="what-is-azure-functions"></a>
+### What is deployemnt slots in Azure?
 Deployment slots are live apps with their own hostnames. App content and configurations elements can be swapped between two deployment slots, including the production slot.
 
 ### What is an Azure Function deployment slot?
