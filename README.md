@@ -1,3 +1,26 @@
+* [Azure Functions](#azure-functions)
+  * [What is Azure Functions?](#what-is-azure-functions)
+  * [What are the benefits of Azure Functions?](#what-are-the-benefits-of-azure-functions)
+  * [What are the triggers and bindings in Azure Functions?](#what-are-the-triggers-and-bindings-in-azure-functions)
+  * [What are the triggers in Azure Functions?](#what-are-the-triggers-in-azure-functions)
+  * [What are the bindings in Azure Functions?](#what-are-the-bindings-in-azure-functions)
+  * [What are the types of bindings in Azure Functions?](#what-are-the-types-of-bindings-in-azure-functions)
+  * [What are the input bindings in Azure Functions?](#what-are-the-input-bindings-in-azure-functions)
+  * [What are the output bindings in Azure Functions?](#what-are-the-output-bindings-in-azure-functions)
+  * [What are the triggers and bindings in Azure Functions?](#what-are-the-triggers-and-bindings-in-azure-functions)
+  * [What are the triggers in Azure Functions?](#what-are-the-triggers-in-azure-functions)
+  * [What are the bindings in Azure Functions?](#what-are-the-bindings-in-azure-functions)
+  * [What are the types of bindings in Azure Functions?](#what-are-the-types-of-bindings-in-azure-functions)
+  * [What are the input bindings in Azure Functions?](#what-are-the-input-bindings-in-azure-functions)
+  * [What are the output bindings in Azure Functions?](#what-are-the-output-bindings-in-azure-functions)
+  * [What are the triggers and bindings in Azure Functions?](#what-are-the-triggers-and-bindings-in-azure-functions)
+  * [What are the triggers in Azure Functions?](#what-are-the-triggers-in-azure-functions)
+  * [What are the bindings in Azure Functions?](#what-are-the-bindings-in-azure-functions)
+  * [What are the types of bindings in Azure Functions?](#what-are-the-types-of-bindings-in-azure-functions)
+  * [What are the input bindings in Azure Functions?](#what-are-the-input-bindings-in-azure-functions)
+  * [What
+
+
 ## Deployment slots
 ### What is deployemnt slots in Azure?
 Deployment slots are live apps with their own hostnames. App content and configurations elements can be swapped between two deployment slots, including the production slot.
@@ -8,6 +31,12 @@ Azure Functions deployment slots are a great way to apply changes to a function 
 * Staged publishing: In this approach, you deploy a function app to a staging slot, then swap into production slot after testing is complete.
 * Testing in production: In this approach, you deploy a function app to a slot that is already serving production traffic. You then test the app in the slot before swapping into production.
 * Blue-green deployment: This approach uses two identical deployment slots, and gradually shifts traffic from one slot to the other by using the App Service provider's own traffic distribution mechanism. This approach enables you to validate app changes in a staging deployment slot before swapping it with the production slot.
+
+### How are functions affected when swapping deployment slots?
+
+* Traffic redirection is seamless; no requests are dropped because of a swap. This seamless behavior is a result of the next function triggers being routed to the swapped slot.
+* Currently executing function are terminated during the swap. Please review [Improve the performance and reliability of Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/performance-reliability#write-functions-to-be-stateless) to learn how to write stateless and defensive functions.
+
 
 ### How to create a deployment slot?
 1. Open the Azure portal and navigate to your function app.
