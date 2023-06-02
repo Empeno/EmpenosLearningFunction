@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [Deployment slots](#deployment-slots)
-   - [What is deployemnt slots in Azure?](#what-is-azure-functions)
+   - [What is deployemnt slots in Azure?](#what-is-deployment-slots-in-azure)
    - [What is an Azure Function deployment slot?](#what-is-an-azure-function-deployment-slot)
    - [How are functions affected when swapping deployment slots?](#how-are-functions-affected-when-swapping-deployment-slots)
    - [How to create a deployment slot?](#how-to-create-a-deployment-slot)
